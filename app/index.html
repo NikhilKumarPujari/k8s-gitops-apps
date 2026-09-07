@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3-Node HA Kubernetes App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: #ffffff;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+        h1 { color: #00d2ff; }
+        .badge {
+            background: #00d2ff;
+            color: #1a1a2e;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>ðŸš€ Automated GitOps Deployment Live!</h1>
+        <p>This container was automatically built and deployed via:</p>
+        <div>
+            <span class="badge">GitHub Actions CI</span>
+            <span class="badge">Harbor Registry (4.227)</span>
+            <span class="badge">ArgoCD GitOps</span>
+            <span class="badge">3-Node HA Cluster</span>
+        </div>
+        <p style="margin-top: 25px; color: #e0e0e0;">Status: <strong>100% Operational</strong></p>
+    </div>
+</body>
+</html>
